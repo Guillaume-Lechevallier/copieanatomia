@@ -7,6 +7,14 @@ It was made by Lluís Vinent Juanico, featuring models from the Z-Anatomy projec
 You can download the models (.blend) [here](https://drive.google.com/drive/folders/18M7IuH2ai2fl21Ud0YH1mSlNEPPmcZzq?usp=drive_link).<br>
 You can download the models (FBX) [here](https://github.com/LluisV/Z-Anatomy/tree/PC-Version/Resources/Models/FBX).
 
+## Anatomical structure dictionary
+
+The script `generate_json.py` scans the FBX models to list all bone, muscle and
+joint meshes. It combines these names with the translations found in
+`Resources/Translations0.txt` to produce a JSON file
+`structures_anatomiques.json` mapping each technical name to readable English
+and French labels.
+
 ## License
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
